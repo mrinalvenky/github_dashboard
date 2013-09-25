@@ -1,18 +1,3 @@
-data1 = [
-        {x: 45, y:10, z:1, group: "one"}
-        {x: 20, y:99, z:1, group: "one"}
-        {x: 30, y:21, z:1, group: "one"}
-        {x: 21, y:67, z:2, group: "two"}
-        {x: 50, y:50, z:1, group: "three"}
-        {x: 34, y:34, z:3, group: "four"}
-        {x: 21, y:54, z:3, group: "three"}
-        {x: 65, y:23, z:3, group: "four"}
-        {x: 87, y:54, z:3, group: "three"}
-        {x: 45, y:98, z:3, group: "four"}
-        {x: 72, y:78, z:3, group: "three"}
-        {x: 23, y:12, z:3, group: "four"}
-]
-
 class AxesChart
 	# AxesChart is a chart that has the padding and a couple of axes on it.
 	constructor: ->
@@ -203,6 +188,21 @@ class BubblePlot extends AxesChart
         # Cleanup the svg for new update
         d3.select("svg")
           .remove()
+
+data1 = [
+        {x: 45, y:10, z:1, group: "one"}
+        {x: 20, y:99, z:1, group: "one"}
+        {x: 30, y:21, z:1, group: "one"}
+        {x: 21, y:67, z:2, group: "two"}
+        {x: 50, y:50, z:1, group: "three"}
+        {x: 34, y:34, z:3, group: "four"}
+        {x: 21, y:54, z:3, group: "three"}
+        {x: 65, y:23, z:3, group: "four"}
+        {x: 87, y:54, z:3, group: "three"}
+        {x: 45, y:98, z:3, group: "four"}
+        {x: 72, y:78, z:3, group: "three"}
+        {x: 23, y:12, z:3, group: "four"}
+]
 
 class Dashing.Bubblegraph extends Dashing.Widget
 
