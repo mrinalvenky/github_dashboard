@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$backgroundbubble-color:  #96bf48;
+
+$titlebubble-color:       rgba(255, 255, 255, 0.7);
+$moreinfobubble-color:    rgba(255, 255, 255, 0.3);
+$tickbubble-color:        rgba(0, 0, 0, 0.6);
+
+
+// ----------------------------------------------------------------------------
+// Widget-bubblegraph styles
+// ----------------------------------------------------------------------------
+.widget-bubblegraph {
+
+  background-color: $backgroundbubble-color;
+  position: relative;
+
+
+  svg {
+    position: absolute;
+    opacity: 0.6;
+    fill-opacity: 0.6;
+    left: 0px;
+    top: 0px;
+  }
+
+  .title, .value {
+    position: relative;
+    z-index: 99;
+  }
+
+  .title {
+    color: $titlebubble-color;
+  }
+
+  .more-info {
+    color: $moreinfobubble-color;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .x_tick {
+    position: absolute;
+    bottom: 0;
+    .title {
+      font-size: 20px;
+      color: $tickbubble-color;
+      opacity: 0.6;
+      padding-bottom: 3px;
+    }
+  }
+
+  .y_ticks {
+    font-size: 20px;
+    fill: $tickbubble-color;
+    fill-opacity: 1;
+  }
+
+  .domain {
+    display: none;
+  }
+
+}

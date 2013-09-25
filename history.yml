@@ -1,0 +1,37 @@
+---
+github_user_repos_forks: |+
+  data: {"items":[{"label":"active_merchant","value":1260},{"label":"liquid","value":282},{"label":"active_shipping","value":225},{"label":"shopify_app","value":58},{"label":"shopify_api","value":42},{"label":"active_utils","value":33},{"label":"shopify_theme","value":31}],"id":"github_user_repos_forks","updatedAt":1380105102}
+
+github_user_repos_watchers: |+
+  data: {"items":[{"label":"active_merchant","value":2458},{"label":"liquid","value":1868},{"label":"active_shipping","value":452},{"label":"shopify_app","value":206},{"label":"statsd-instrument","value":197},{"label":"shopify_api","value":133},{"label":"shopify_theme","value":108}],"id":"github_user_repos_watchers","updatedAt":1380105102}
+
+bubblegithub: |+
+  data: {"points":[{"x":100,"y":100,"z":0,"group":"pushmatrix"},{"x":26,"y":4,"z":1,"group":"davefp"},{"x":8,"y":0,"z":3,"group":"apeckham"},{"x":6,"y":5,"z":2,"group":"redronin"},{"x":6,"y":0,"z":4,"group":"cjolly"},{"x":4,"y":0,"z":4,"group":"mcritchlow"},{"x":4,"y":0,"z":0,"group":"tahnok"},{"x":4,"y":0,"z":4,"group":"drubin"},{"x":2,"y":0,"z":3,"group":"banafederico"},{"x":2,"y":0,"z":3,"group":"byroot"},{"x":2,"y":0,"z":3,"group":"splattael"},{"x":2,"y":0,"z":3,"group":"jfriedlaender"},{"x":2,"y":0,"z":3,"group":"persand"},{"x":2,"y":0,"z":3,"group":"zsalzbank"},{"x":2,"y":1,"z":3,"group":"wazoo"},{"x":2,"y":0,"z":3,"group":"ndbroadbent"},{"x":2,"y":0,"z":3,"group":"southpolesteve"},{"x":2,"y":0,"z":1,"group":"pvande"},{"x":2,"y":0,"z":2,"group":"EHadoux"},{"x":2,"y":0,"z":1,"group":"kevinthompson"}],"id":"bubblegithub","updatedAt":1380105102}
+
+github_userinfo_followers: |+
+  data: {"current":23,"id":"github_userinfo_followers","updatedAt":1380105102}
+
+github_userinfo_following: |+
+  data: {"current":8,"id":"github_userinfo_following","updatedAt":1380105102}
+
+github_userinfo_repos: |+
+  data: {"current":50,"id":"github_userinfo_repos","updatedAt":1380105102}
+
+github_userinfo_gists: |+
+  data: {"current":11,"id":"github_userinfo_gists","updatedAt":1380105102}
+
+buzzwords: |+
+  data: {"items":[{"label":"Turn-key","value":3},{"label":"Leverage","value":2},{"label":"Web 2.0","value":2},{"label":"Synergy","value":1},{"label":"Streamlininess","value":1},{"label":"Exit strategy","value":2}],"id":"buzzwords","updatedAt":1380105123}
+
+convergence: |+
+  data: {"points":[{"x":12,"y":2},{"x":13,"y":0},{"x":14,"y":34},{"x":15,"y":27},{"x":16,"y":46},{"x":17,"y":8},{"x":18,"y":28},{"x":19,"y":18},{"x":20,"y":40},{"x":21,"y":46}],"id":"convergence","updatedAt":1380105123}
+
+valuation: |+
+  data: {"current":36,"last":47,"id":"valuation","updatedAt":1380105123}
+
+karma: |+
+  data: {"current":113479,"last":149739,"id":"karma","updatedAt":1380105123}
+
+synergy: |+
+  data: {"value":49,"id":"synergy","updatedAt":1380105123}
+
