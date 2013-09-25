@@ -36,9 +36,9 @@ SCHEDULER.every '3m', :first_in => 0 do |job|
 
           # get the values for each contributor
           if datum['author']
-              name = datum['author']['login']
+              aname = datum['author']['login']
           else
-              name = "Anonymous"
+              aname = "Anonymous"
           end
 
           commits = datum['total']
@@ -75,7 +75,7 @@ SCHEDULER.every '3m', :first_in => 0 do |job|
           if max_age < age
              max_age = age
           end
-          points_group.insert(total_users, name)
+          points_group.insert(total_users, aname)
           
           total_users += 1
           
