@@ -8,8 +8,6 @@
  
  3) Github Bubble graph which is a new widget created in this repo only. Checkout the gist for it
  
- Here is a live example of the dashboard :-
- 
- [Dashboard](http://githubdashboard.herokuapp.com/sample)
+ Here is a live example of the [Dashboard](http://githubdashboard.herokuapp.com/sample)
 
 Check out http://shopify.github.com/dashing for more information.
