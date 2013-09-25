@@ -3,7 +3,9 @@
  The widgets here are :-
  
  1) Github repositories list. This is using [github_user_repos](https://github.com/foobugs/foobugs-dashboard/blob/master/jobs/github_user_repos.rb)
+ 
  2) Github user Info. This is using [github_userinfo](https://github.com/foobugs/foobugs-dashboard/blob/master/jobs/github_userinfo.rb)
+ 
  3) Github Bubble graph which is a new widget created in this repo only. Checkout the gist for it
  
  Here is a live example of the dashboard :-
