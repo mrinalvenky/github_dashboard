@@ -12,7 +12,7 @@ points_x = []
 points_y = [] 
 points_z = [] 
 points_group = [] 
-max_users = 18
+max_users = 11
 
 SCHEDULER.every '3m', :first_in => 0 do |job|
   http = Net::HTTP.new("api.github.com", Net::HTTP.https_default_port())
